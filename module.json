@@ -1,0 +1,29 @@
+{
+    "id": "compendium-button",
+    "title": "Compendium Button for Character Sheets",
+    "description": "Adds a button to open the compendium browser directly from character sheets.",
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "12",
+      "verified": "12"
+    },
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatibility": {
+            "minimum": "4.0",
+            "verified": "4.0.4"
+          }
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Jared Reni"
+      }
+    ],
+    "scripts": ["scripts/compendium-button.js"]
+  }
+  
