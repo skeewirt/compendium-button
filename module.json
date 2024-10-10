@@ -1,29 +1,37 @@
 {
-    "id": "compendium-button",
-    "title": "Compendium Button for Character Sheets",
-    "description": "Adds a button to open the compendium browser directly from character sheets.",
-    "version": "1.0.0",
-    "compatibility": {
-      "minimum": "12",
-      "verified": "12"
-    },
-    "relationships": {
-      "systems": [
-        {
-          "id": "dnd5e",
-          "type": "system",
-          "compatibility": {
-            "minimum": "4.0",
-            "verified": "4.0.4"
-          }
-        }
-      ]
-    },
-    "authors": [
+  "id": "compendium-button",
+  "name": "Compendium Button",
+  "title": "Compendium Button for Character Sheets",
+  "description": "Adds a button to D&D 5e character sheets for quick access to the compendium browser.",
+  "version": "1.0.2",
+  "author": "skeewirt",
+  "authors": [
+    {
+      "name": "skeewirt",
+      "url": "https://github.com/skeewirt",
+      "discord": "YourDiscordHandle#1234"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
       {
-        "name": "Jared Reni"
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0",
+          "verified": "4.0.4"
+        }
       }
-    ],
-    "scripts": ["scripts/compendium-button.js"]
-  }
-  
+    ]
+  },
+  "scripts": ["scripts/compendium-button.js"],
+  "manifest": "https://raw.githubusercontent.com/skeewirt/compendium-button/main/module.json",
+  "download": "https://github.com/skeewirt/compendium-button/releases/download/v1.0.2/compendium-button.zip",
+  "readme": "https://github.com/skeewirt/compendium-button#readme",
+  "changelog": "https://github.com/skeewirt/compendium-button/releases/tag/v1.0.2",
+  "license": "MIT"
+}
